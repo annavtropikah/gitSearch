@@ -12,22 +12,24 @@ align-items: center;
 margin-top:100px;
 display: flex;
 flex-direction: column;
+align-items: center;
 
 
 
 & p {
- text-align:left;
+ text-align:center;
 font-size:50px;
  font-weight:600;
 }
 & a {
     color:#6495ED	;
-    padding-left:20px;
+    padding:20px;
     font-weight:600;
     font-size:30px;
+    border: thick double #6495ED;
 }
     & img{
-    margin-top:20px;
+    margin-top:40px;
     width:100px;
     border-radius:10px;
 }
@@ -37,4 +39,5 @@ font-size:50px;
 export const Container = styled.div`
 
 width: 100vw;
+
 `

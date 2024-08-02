@@ -9,6 +9,7 @@ flex-direction:row;
 row-gap:20px;
 align-items:center;
 justify-content:space-around;
+cursor: pointer;
 
   width: 100%;
 
@@ -32,11 +33,10 @@ margin-top:0px;
   background: #fff;
 }
 
-  & h1 {
-  font-size:20px;
-}
+
   & p {
   font-size:20px;
+  width:200px;
 }
 
 `;

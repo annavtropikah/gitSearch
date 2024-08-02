@@ -14,6 +14,7 @@ box-sizing:border-box;
   line-height: 1;
   font-weight: 500;
   margin-right: 20px;
+  margin-left:20px;
   padding:15px;
   text-align:center;
 
