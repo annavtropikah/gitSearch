@@ -25,13 +25,28 @@ box-sizing:border-box;
   height:150px;
   border-radius:10px;
   background: #fff;
+  margin-bottom:20px
 }
 
   & h1 {
-  font-size:40px;
+  font-size:30px;
 }
   & p {
   font-size:20px;
+
+}
+& a {
+ 
+  font-size:15px;
+  color:black;
+  line-break: auto;
+  line-height: 3;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover{
+    text-decoration:underline;
+  }
+
 }
 
 `;

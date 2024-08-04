@@ -15,6 +15,7 @@ export const ListContent = styled.div`
 display:flex;
 flex-direction:column;
 margin-top: 50px; 
+height:650px;
 
   border-radius: 10px;
   background-color: #00BFFF;
@@ -72,7 +73,17 @@ justify-content:space-around;
 
 `;
 export const UsersList = styled.div`
+position: relative;
+& span{
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:20px;
+  color:#fff;
+  line-height: 2;
+
+}
 
 
 `;

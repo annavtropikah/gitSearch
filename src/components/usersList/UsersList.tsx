@@ -99,7 +99,8 @@ export default function UsersList() {
                         {usersList?.length ? usersList?.map((user: GithubUser) => (
                             <User key={user.id} user={user} />
                         )) : (
-                            <span>Ничего не найдено</span>
+                            <span>Информация отсутствует<br/>Начните новый поиск
+                            </span>
                         )}
                     </S.UsersList>
                 )}
