@@ -10,24 +10,17 @@ row-gap:20px;
 align-items:center;
 justify-content:space-around;
 cursor: pointer;
-
   width: 100%;
-
-
   color: #fff;
   border: none;
-
   line-height: 1;
   font-weight: 500;
-
-
   text-align:center;
-
   outline: none;
+
+
   & img {
 margin-top:0px;
-
-
   height:30px;
   border-radius:5px;
   background: #fff;
@@ -35,10 +28,12 @@ margin-top:0px;
 
 
   & p {
+    display:block;
   font-size:20px;
-  width:200px;
-}
 
+  width:200px;
+  overflow:hidden;
+}
 `;
 
 export const NumberBox = styled.span`

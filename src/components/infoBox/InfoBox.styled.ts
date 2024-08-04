@@ -5,7 +5,8 @@ export const InfoBox = styled.div`
 margin-top: 50px;
 box-sizing:border-box;
   height: 500px;
-  min-width:250px;
+  min-width: 250px;
+  max-width: 250px;
   border-radius: 10px;
   background-color: #FF69B4;
   color: #000;
