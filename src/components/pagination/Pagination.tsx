@@ -24,9 +24,9 @@ export default function Pagination(props: PaginationProps) {
     };
 
     return (
-        // div
+    
         <S.Paginator>
-            {/*button*/}
+
             <S.Arrow
                 type="button"
                 onClick={handlePrevPageClick}
@@ -35,10 +35,10 @@ export default function Pagination(props: PaginationProps) {
                 {'<'}
             </S.Arrow>
             {nav && (
-                // span
+               
                 <S.Navigation>{nav.current} / {nav.total}</S.Navigation>
             )}
-            {/*button*/}
+        
             <S.Arrow
                 type="button"
                 onClick={handleNextPageClick}

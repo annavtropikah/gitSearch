@@ -37,7 +37,13 @@ padding-bottom:15px;
 
 `
 
-export const Arrow = styled.img`
-height:25px;
-padding-top:4px;
+export const ArrowDesc = styled.img`
+    height: 25px;
+    
+`
+
+export const ArrowAsc = styled.img`
+    height: 25px;
+
+    transform: rotate(180deg);
 `

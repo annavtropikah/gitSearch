@@ -12,7 +12,7 @@ box-sizing:border-box;
   color: #000;
   border: none;
 
-  line-height: 1;
+
   font-weight: 500;
   margin-right: 20px;
   margin-left:20px;
@@ -22,16 +22,42 @@ box-sizing:border-box;
   outline: none;
   & img {
     margin-top:20px;
+    margin-bottom:20px;
   height:150px;
   border-radius:10px;
   background: #fff;
 }
 
-  & h1 {
-  font-size:40px;
-}
-  & p {
-  font-size:20px;
-}
+
 
 `;
+
+export const InfoBoxContent = styled.div`
+display:flex;
+align-items:center;
+flex-direction:column;
+
+
+  & h1 {
+  font-size:30px;
+  width:200px;
+  word-break: break-all;
+  height:80px;
+  overflow-x:hidden;
+}
+  & span {
+  font-size:20px;
+  width:200px;
+
+}
+& a {
+  color:black;
+  font-size:20px;
+  width:200px;
+  word-break: break-all;
+  margin-bottom:10px;
+  overflow-x:hidden;
+  &:hover{
+    text-decoration:underline;
+  }}
+`

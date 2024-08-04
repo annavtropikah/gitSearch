@@ -1,6 +1,6 @@
 
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import { usersListReducer } from "./features/usersListSlice";
+import { userReducer} from "./features/usersListSlice";
 
 
 
@@ -8,7 +8,7 @@ import { usersListReducer } from "./features/usersListSlice";
 export const store = configureStore({
     // Мы передаем объект, в котором свойство reducer содержит корневой редюсер, объединяющий все редюсеры нашего приложения.
     reducer: combineReducers({
-      usersList: usersListReducer,
+      usersList: userReducer,
       //здесь будут все редьюсоры!!!!не забыть)
     }),
   });
