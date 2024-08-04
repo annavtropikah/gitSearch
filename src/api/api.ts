@@ -37,5 +37,5 @@ export async function getUserRepos(login: string) {
         return data?.length;
     }
 
-    throw new Error("Ошибка");
+    throw new Error("Возможно ваш токен протух");
 }
