@@ -10,9 +10,11 @@ flex-direction: column;
 
 
 export const ListContent = styled.div`
+
     display:grid;
     flex-direction:column;
     row-gap: 30px;
+
 
   border-radius: 10px;
   //background-color: #00BFFF;
@@ -73,8 +75,10 @@ export const ListHeading = styled.div`
 
 `;
 export const UsersList = styled.div`
+
     display: grid;
     row-gap: 20px;
+
 `;
 
 export const NumberBox = styled.span`

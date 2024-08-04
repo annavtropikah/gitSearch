@@ -27,7 +27,9 @@ export default function UsersList(props: UsersListProps) {
                         {usersList?.length ? usersList?.map((user: GithubUser) => (
                             <User key={user.id} user={user} />
                         )) : (
+
                             <EmptyList>Ничего не найдено</EmptyList>
+
                         )}
                     </S.UsersList>
                 )}

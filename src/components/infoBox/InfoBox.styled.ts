@@ -26,6 +26,7 @@ box-sizing:border-box;
   height:150px;
   border-radius:10px;
   background: #fff;
+  margin-bottom:20px
 }
 
 
@@ -40,14 +41,18 @@ flex-direction:column;
 
   & h1 {
   font-size:30px;
+
   width:200px;
   word-break: break-all;
   height:80px;
   overflow-x:hidden;
+
 }
   & span {
   font-size:20px;
+
   width:200px;
+
 
 }
 & a {
