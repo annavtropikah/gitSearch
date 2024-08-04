@@ -14,9 +14,9 @@ export default function User({ user }: { user: GithubUser }) {
         
             <S.ItemBox onClick={handleUserClick}>
                 <img src={user.avatar_url} alt="" />
-                <p>{user.login}</p>
-                <p>{user.html_url}</p>
-                <S.NumberBox>{user.repo_counter}</S.NumberBox>
+                <span>{user.login}</span>
+                <span>{user.html_url}</span>
+                <span>{user.repo_counter}</span>
             </S.ItemBox>
       
     )

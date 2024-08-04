@@ -1,11 +1,13 @@
 import { TOKEN } from "./constants";
 import {PER_PAGE} from "../shared/utils";
 
-export async function getUsers(login: string, page: number) {
+export async function getUsers(login: string, page: number, order: 'desc' | 'asc') {
     const params = new URLSearchParams({
         q: login,
         page: String(page),
         per_page: String(PER_PAGE),
+        sort: 'repositories',
+        order,
     }).toString();
 
     const response=await fetch(`https://api.github.com/search/users?${params}`, {
