@@ -28,7 +28,7 @@ export default function UsersList(props: UsersListProps) {
                             <User key={user.id} user={user} />
                         )) : (
 
-                            <EmptyList>Ничего не найдено</EmptyList>
+                            <EmptyList>Ничего не найдено<br/>Начните новый поиск</EmptyList>
 
                         )}
                     </S.UsersList>

@@ -87,13 +87,6 @@ font-size:15px;
 
 `
 
-
-
-
-
-
-
-
 //search
 
 export const BlockSearch = styled.div`
@@ -151,4 +144,5 @@ export const EmptyList = styled.span`
     color: #ffffff;
     font-size: 20px;
     padding-top: 20px;
+    line-height:2;
 `

@@ -37,7 +37,7 @@ export default function MainPage() {
             const usernames = data.items.map((item: GithubUser) => item.login);
             setTotalCounter(data.total_count);
 
-            // идем с логинами за их репозиториями, дожидаемся N запросов
+            // идем с логинами за их репозиториями, дожидаемся N(10) запросов
             const usersWithRepos = await Promise.all(usernames.map((username: string, idx: number) => {
                 return getUserRepos(username).then(response => {
                     // добавляем каждому пользователю их количетсво репозиториев
@@ -47,7 +47,7 @@ export default function MainPage() {
                 })
             }))
 
-            // TODO: обновлять слайс
+
             // добавляем обновленные данные в стейт
             setUsersList(usersWithRepos)
         } catch (err) {
