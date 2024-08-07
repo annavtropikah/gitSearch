@@ -4,7 +4,7 @@ export default function Header() {
     return (
 
         <S.Container>
-            <img src="/image/logo5.png" alt="" />
+            <img src="/image/logo5.png" alt="логотип кубик рубика" />
             <div>
                 <h1 >GitSearch</h1>
                 <p>Поиск и сортировка пользователей Github</p>
