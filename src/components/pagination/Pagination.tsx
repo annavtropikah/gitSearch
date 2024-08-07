@@ -28,6 +28,7 @@ export default function Pagination(props: PaginationProps) {
         <S.Paginator>
 
             <S.Arrow
+                data-testid="prev-pagination-btn"
                 type="button"
                 onClick={handlePrevPageClick}
                 disabled={disable.left}
@@ -40,6 +41,7 @@ export default function Pagination(props: PaginationProps) {
             )}
 
             <S.Arrow
+                data-testid="next-pagination-btn"
                 type="button"
                 onClick={handleNextPageClick}
                 disabled={disable.right}
